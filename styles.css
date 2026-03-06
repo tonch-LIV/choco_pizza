@@ -1,0 +1,99 @@
+h2 {
+  font-size: xx-large;
+}
+
+.page {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.topLeftText h1 {
+  margin: 0;
+}
+
+.topLeftText p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.divider {
+  height : 20px;
+  border: none;
+
+  background: repeating-linear-gradient(
+    -45deg,
+    #ccc,
+    #ccc 2px,
+    transparent 2px,
+    transparent 6px
+  );
+  margin: 25px 0;
+  /* width: ; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.article-text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 60px;
+  background-image: url(img/list-bg.png);
+  background-size: cover;
+  padding: 40px;
+}
+
+.ingredients ul {
+  padding: 0;
+}
+
+.ingredients li {
+  list-style:none;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.author {
+margin: 40px 0;
+}
+
+.author img {
+  border-radius: 50%;
+}
+
+.share {
+  background-color: #bc7058;
+  color: white;
+  width: 10rem;
+  height: 4rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer img {
+  margin-bottom: 10px;
+}
